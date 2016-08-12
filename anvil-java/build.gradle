@@ -1,0 +1,41 @@
+group 'alloy'
+version '0.0.1-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+	baseName = 'anvil-kotlin'
+	version = '0.0.1-SNAPSHOT'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+// New entire sourceSets
+sourceSets {
+    main {
+        java {
+            srcDir "src/main/java"
+        }
+    }
+    test {
+        java {
+            srcDir "src/test/java"
+        }
+    }
+}
+
+dependencies {
+}
