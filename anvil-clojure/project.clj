@@ -1,5 +1,5 @@
 (defproject alloy/anvil-clojure "0.0.1-SNAPSHOT"
-  :plugins [[lein-modules "0.3.11"] [lein-cljsbuild "1.1.0"]]
+  :plugins [[lein-modules "0.3.11"] [lein-cljsbuild "1.1.1"]]
   :description "FIXME: write description"
   :source-paths ["src/clj" "src/cljs" "src/cljc"]
   :dependencies [
