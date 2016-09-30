@@ -4,8 +4,7 @@
   :source-paths ["src/clj" "src/cljs" "src/cljc"]
   :dependencies [
                  [org.clojure/clojure "1.9.0-alpha10"]
-                 [org.clojure/clojurescript "1.9.198"]
-                 [com.rpl/specter "0.9.2"]]
+                 [org.clojure/clojurescript "1.9.198"]]
 
   :cljsbuild {:builds [{:source-paths ["src/cljc" "src/cljs"]
                         :compiler     {
